@@ -1,7 +1,8 @@
 /* IMPOSTAZIONI GENERALI */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,700;1,700&family=Open+Sans&display=swap');
 body{
-    width: 100%;
+    min-width: 1366px;
+    max-width: 1920px;
     font-family:'Open Sans', sans-serif;
     font-size: 1.2rem; 
     line-height: 1.65;
@@ -14,6 +15,7 @@ h1,h3,h5{
     font-weight: 700;
     line-height: 1.5;
     color: #25a2c3  ;
+    
     
 }
 p{
@@ -52,12 +54,11 @@ nav{
     padding-top:200px;
 }
 h1{
-    padding-left: 300px;
-    margin-right: 300px;
     font-size: 2em ;
     text-align: center;  
 }
 button{
+    display: inline-block;
     text-align: center;
     box-sizing: border-box;
     color: white;
@@ -71,13 +72,20 @@ button{
     margin-top: 40px;
 }
 nav p{
-    padding-left: 15px;
-    padding-right: 15px;
+    display: inline-block;
+    align: center;
+    width: 50%;
 }
 /* ELEMENTI ARTICLE - SECTION */
-#tondo{
+.tondo{
+    margin-top: 50px;
+    text-align: start;
+    display: inline-block;
+    margin-right:60px;
+    width: 400px ;
+    height: 400px;
     padding-top: 20px;
-    border-radius: 200px;
+    border-radius: 300px;
 }
 .testimonianza{
     height: 300px;
@@ -92,14 +100,14 @@ h2{
     line-height: 1.5;
     font-size: 1.9em;
     font-weight: 700;
-    padding-top: 40px;
+    padding-top:60px;
     padding-bottom: 20px;
 
 }
 .testimonianza .oblique{
    color: white;
    font-style: oblique;
-   font-size: 0.8em;
+   font-size: 1.3em;
 }
 h4{
     padding-top: 30px;
@@ -110,6 +118,11 @@ h4{
 }
 
 .box{
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    width: 400px;
+    height: 450px;
     margin: 25px;
     border: 1px solid #dee1e3;
     box-shadow: -2px 0px 5px #dee1e3;
@@ -130,12 +143,14 @@ h4{
 /* FOOTER */
 footer{
     margin-top: 80px;
-    height: 350px;
+    height: 400px;
     text-align: center;
     background-color:rgb(71,150,189) ;
     color: white;
 }
 ul{
+    text-align: start;
+    list-style: none;
     opacity: 0.8;
     padding-bottom: 20px;
 }
@@ -143,12 +158,20 @@ a{
     color: white;
 }
 hr{
-    margin-left:25%;
-    margin-right: 25%;
+    width: 300px;
 }
 footer p{
     padding-top: 20px;
     color: white;
     font-size: 0.9em;
     opacity: 0.8;
+}
+.fine{
+    display: inline-block;
+    width: 300px;
+    text-align: center;
+}
+.fine h2{
+    font-size: 3em ;
+    width: 300px;
 }
