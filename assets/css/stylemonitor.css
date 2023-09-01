@@ -15,8 +15,7 @@ h1,h3,h5{
     font-weight: 700;
     line-height: 1.5;
     color: #25a2c3  ;
-    
-    
+       
 }
 p{
     font-family:'Open Sans', sans-serif;
@@ -73,7 +72,7 @@ button{
 }
 nav p{
     display: inline-block;
-    align: center;
+    text-align: center;
     width: 50%;
 }
 /* ELEMENTI ARTICLE - SECTION */
@@ -126,7 +125,6 @@ h4{
     margin: 25px;
     border: 1px solid #dee1e3;
     box-shadow: -2px 0px 5px #dee1e3;
-
 }
 .box h5{
     padding-left: 30px;
